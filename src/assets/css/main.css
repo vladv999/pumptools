@@ -1,0 +1,389 @@
+
+
+/* @import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css';
+@import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/thin/style.css';
+@import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/light/style.css';
+@import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css';
+@import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css';
+@import 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/duotone/style.css'; */
+
+:root{
+  --bs-border-radius: 7px;
+  --app-border-radius: 7px;
+}
+
+.red {
+  color: red;
+}
+.drag_files{
+  border: 2px dashed #ccc;
+  border-radius: 7px;
+  height: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.drag_files i{
+  font-size: 36px;
+}
+.drag_files.active{
+  border-color: aquamarine;
+}
+.drag_files img{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+nav .app-nav .main-nav > li:not(.menu-title) > a.active{
+  background: rgba(var(--primary), .3);
+  color: rgba(var(--primary-dark), 1);
+  font-weight: 600;
+}
+.form_description{
+  font-size: 14px;
+  color: #9E9E9E;
+}
+.fee{
+  font-size: 14px;
+  color: #009688;
+  font-weight: 600;
+}
+w3m-modal{
+  z-index: 9999;
+}
+.invoice-container{
+  max-width: 1140px!important;
+}
+.token_price{
+  font-size: 18px;
+}
+.token_price span{
+  color: #009688;
+  font-weight: 600;
+}
+.modal_layout{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9997;
+  top: 0;
+  left: 0;
+  background-color: var(--wui-cover);
+  display: none;
+}
+.modal_es{
+  position: fixed;
+  width: 500px;
+  left: calc(50% - 250px);
+  top: calc(10%);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+  padding: 20px;
+  z-index: 9998;
+  display: none;
+}
+body.dark .modal_es{
+  background-color: #202335;
+}
+.modal_es_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.modal_es_header h3{
+  display: flex;
+  align-items: center;
+}
+.top_modal_close{
+  background: none;
+  border: none;
+  padding: 0;
+}
+.top_modal_close i{
+  font-size: 30px;
+}
+body.dark .top_modal_close i{
+  color: #fff;
+}
+.modal_es_footer{
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+.link_modal{
+  border-bottom: 1px dashed #4CAF50;
+  color: #4CAF50;
+}
+nav .app-nav .main-nav > li:not(.menu-title) > a{
+  font-size: 14px;
+}
+.token_item{
+  background-color: #f2f2f2;
+  border-radius: 7px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.mini_address{
+  font-size: 12px;
+  color: #607D8B;
+}
+.lq_amount_block{
+  background-color: #673ab721;
+  border-radius: 7px;
+}
+.lq_amount_block_top{
+  font-size: 18px;
+}
+.lq_amount_block_address{
+  font-size: 12px;
+}
+.lqab_balance{
+  font-size: 14px;
+}
+.card{
+  background: unset!important;
+}
+.list-group-item{
+  background-color: unset!important;
+}
+.app-form .form-select, .app-form .form-control{
+  border: 1px solid #2196F3;
+}
+.white-form{
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px #0000000a;
+}
+body.dark .white-form{
+  background-color: #202335;
+}
+.home_page .hero_title{
+  font-size: 48px;
+}
+.home_page .hero_desc{
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 70%;
+}
+.home_page .best_price{
+  padding: 10px 30px;
+  background-image: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+  border-radius: 10px;
+  color: #fff;
+  position: relative;
+}
+.home_page .best_price.free_addons{
+  background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
+}
+.home_page .best_price h2{
+  color: #fff;
+  padding-top: 4px;
+  margin: 0;
+}
+.home_page .best_price_img{
+  height: 69px;
+  margin-right: 30px;
+}
+.home_page .best_price_title_text{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+.tool_coming_soon{
+  display: flex;
+  align-items: center;
+}
+.home_tools_title{
+  font-size: var(--h2-font-size);
+}
+.logo-white{
+  display: none;
+}
+body.dark .logo-black{
+  display: none;
+}
+body.dark .logo-white{
+  display: block;
+}
+
+body.light .logo-black{
+  display: block;
+}
+body.light .logo-white{
+  display: none;
+}
+body[class="ltr dark"] nav .app-logo{
+  filter: unset!important;
+}
+body .vertical-sidebar .logo-mini{
+  display: none;
+}
+body .vertical-sidebar.semi-nav .logo-white{
+  display: none;
+}
+body .vertical-sidebar.semi-nav .logo-black{
+  display: none;
+}
+body .app-wrapper .vertical-sidebar.semi-nav .logo-mini{
+  display: block;
+  max-width: 32px;
+  height: 32px;
+}
+body .app-wrapper .vertical-sidebar.semi-nav:hover .logo-mini{
+  display: none;
+}
+body .app-wrapper .vertical-sidebar.semi-nav:hover .logo-black{
+  display: block;
+}
+body.dark .app-wrapper .vertical-sidebar.semi-nav:hover .logo-white{
+  display: block;
+}
+body.dark .app-wrapper .vertical-sidebar.semi-nav:hover .logo-black{
+  display: none;
+}
+.app-wrapper .semi-nav .app-logo{
+  overflow: hidden;
+}
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #202335;
+  color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preloader.hide{
+  display: none;
+}
+.wallet_desktop{
+  display: flex;
+  align-items: center;
+}
+.btn.icon-btn.wallet_mobile{
+  display: none;
+  align-items: center;
+}
+.head_choose_net{
+  background: #333333;
+}
+.lfg_item{
+  display: flex;
+  align-items: center;
+  padding: 5.25px 15px;
+  font-size: var(--btn-font-size);
+  border-radius: 5px;
+  height: 38.5px;
+}
+.lfg_item i{
+  color: #fff;
+}
+.lfg_name{
+  font-size: 14px;
+  color: #fff;
+}
+.token_price span.price_desc{
+  font-size: 14px;
+  color: #607D8B;
+  font-weight: 400;
+}
+#app-simple-bar::-webkit-scrollbar { 
+  width: 7px;
+}
+
+#app-simple-bar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body #app-simple-bar::-webkit-scrollbar-thumb {
+  background: #0000002c; /* Полупрозрачный цвет */
+  border-radius: 5px;
+}
+body.dark #app-simple-bar::-webkit-scrollbar-thumb {
+  background: #ffffff2c; /* Полупрозрачный цвет */
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .btn.icon-btn.wallet_mobile{
+    display: flex;
+  }
+  .wallet_desktop{
+    display: none;
+  }
+  body.light .vertical-sidebar.semi-nav .logo-white{
+    display: none;
+  }
+  body.light .vertical-sidebar.semi-nav .logo-black{
+    display: block;
+    width: 140px;
+  }
+  body.dark .vertical-sidebar.semi-nav .logo-white{
+    display: block;
+    width: 140px;
+  }
+  body.dark .vertical-sidebar.semi-nav .logo-black{
+    display: none;
+  }
+  body .app-wrapper .vertical-sidebar.semi-nav .logo-mini{
+    display: none
+  }
+  .home_page .hero_title{
+    font-size: 24px;
+  }
+  .home_page .hero_desc {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .white-form {
+    padding: 15px;
+  }
+  .home_page .best_price h2 {
+    font-size: 18px;
+  }
+  .home_page .best_price_title_text{
+    font-size: 14px;
+  }
+  .btn_create_token{
+    width: 100%;
+    justify-content: center;
+  }
+  .app-wrapper .semi-nav .badge {
+    display: block;
+  }
+  .toggle-semi-nav{
+    font-size: 32px;
+  }
+  .lfg_name{
+    display: none;
+  }
+  .head_choose_net{
+    height: 37px;
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .head_choose_net_imaged{
+    height: 37px;
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .head_choose_net_imaged img{
+    height: 20px;
+    width: 20px;
+  }
+}

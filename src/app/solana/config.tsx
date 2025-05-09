@@ -1,0 +1,9 @@
+export const TOKEN_CREATE_FEE = 0.08; 
+export const TOKEN_CREATE_ADDRESS_FEE = '7KHs8nSr95bmSQZyPzskE7WB7D81ZnoazuEB8HS2Mmxq'; 
+export const PINATA_JWT = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI5ODZhNGVmYi0wYzZmLTRhZWMtOTMzOC04N2Y5N2ZiZDM3MGEiLCJlbWFpbCI6InB1bXB0b29scy50b3BAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6IjU1MWNjZGQwMzQ4NWNjYjc3NGE5Iiwic2NvcGVkS2V5U2VjcmV0IjoiMTQ1YTExM2Y1N2FjZTU1Yjc2ZmJmYWJiN2Q4ZDdhZmZlNTJkNTRlNjc5YTFmNjkwZDczYzUwMmY2MDBjOGUxOSIsImV4cCI6MTc3ODE1Mjc4OX0.U5XZeIk7MaMhZtnKdJs6lxkPH9wwescEiZaafWsX4eg';
+
+
+export const NETWORK_TYPE: 'devnet' | 'mainnet-beta' = 'devnet'; // 'devnet' or 'testnet' or 'mainnet-beta'
+export const NETWORK_URL_DEVNET = 'https://api.devnet.solana.com'; 
+export const NETWORK_URL_MAINNET = 'https://api.mainnet-beta.solana.com';
+
